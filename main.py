@@ -18,7 +18,6 @@ def playGame():
     while playerChoice not in possibleChoice:
         print(errMSG)
         playerChoice = input("Enter one of these letters ('R' -> Rock, 'P' -> Paper, 'S' -> Scissors)>>> ").upper()
-        playerChoice = playerChoice.upper
 
     if playerChoice == "R":
         playerChoice = "ROCK"
